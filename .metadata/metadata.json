@@ -1,0 +1,13 @@
+{
+  "name": "eu5-modding-enviroment",
+  "id": "local.eu5_modding_enviroment",
+  "version": "0.0.0-plan",
+  "game_id": "eu5",
+  "supported_game_version": "*",
+  "short_description": "Planning scaffold for a small European performance and modding test environment. No gameplay overrides yet.",
+  "tags": [],
+  "relationships": [],
+  "game_custom_data": {
+    "multiplayer_synchronized": true
+  }
+}

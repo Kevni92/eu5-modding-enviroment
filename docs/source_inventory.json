@@ -1,0 +1,979 @@
+{
+  "generated_at_utc": "2026-11-04T12:37:27.835894+00:00",
+  "game_root": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Europa Universalis V\\game",
+  "kind": "static_source_inventory_not_runtime_benchmark",
+  "source_scope": "installed_base_files_without_include_expansion_or_vfs_resolution",
+  "caesar_branch": "develop",
+  "caesar_revision": "42f8b31e",
+  "setup_files": [
+    {
+      "path": "main_menu/setup/1337/02_core.txt",
+      "bytes": 1585,
+      "sha256": "3e4bb471e8a4de0ee1a3cf437571721260f8f90cc88b1ff10ddeba043f2dbd1a",
+      "root_blocks": [
+        "institution_manager",
+        "religion_manager"
+      ],
+      "root_scalar_keys": []
+    },
+    {
+      "path": "main_menu/setup/1337/03_markets.txt",
+      "bytes": 3726,
+      "sha256": "7818c25dc67598d29fd7494e7d086ee325f5389c953fa2ef42600eabac9fba50",
+      "root_blocks": [
+        "market_manager"
+      ],
+      "root_scalar_keys": []
+    },
+    {
+      "path": "main_menu/setup/1337/04_dynasties.txt",
+      "bytes": 238923,
+      "sha256": "289ecef7594cc86c0e13cd205ed797a83f49a9da88bdbc96cbe4fbc5e416d146",
+      "root_blocks": [
+        "dynasty_manager"
+      ],
+      "root_scalar_keys": []
+    },
+    {
+      "path": "main_menu/setup/1337/04_religious_orders.txt",
+      "bytes": 3678,
+      "sha256": "2ff8196c1f80692ace351100103879c99e577f9b3796aaf265eb35e12638548e",
+      "root_blocks": [
+        "religious_order_manager"
+      ],
+      "root_scalar_keys": []
+    },
+    {
+      "path": "main_menu/setup/1337/05_characters.txt",
+      "bytes": 2486406,
+      "sha256": "10c862af7eb81b66a1a4c1136c7c46beae20793c07bf73ec17014151714bcfca",
+      "root_blocks": [
+        "character_db"
+      ],
+      "root_scalar_keys": []
+    },
+    {
+      "path": "main_menu/setup/1337/06_pops.txt",
+      "bytes": 5192093,
+      "sha256": "8ce8a39ef0b36e1d0d35c5895f42d546fef188cccd3235483547f38b4dcbb539",
+      "root_blocks": [
+        "locations"
+      ],
+      "root_scalar_keys": []
+    },
+    {
+      "path": "main_menu/setup/1337/07_cities_and_buildings.txt",
+      "bytes": 260577,
+      "sha256": "355ae84465cbaf6397fe2efea60751e2aff24cf9d6283fe1bf3dadfb353c41a1",
+      "root_blocks": [
+        "locations",
+        "building_manager"
+      ],
+      "root_scalar_keys": []
+    },
+    {
+      "path": "main_menu/setup/1337/08_institutions.txt",
+      "bytes": 661890,
+      "sha256": "7ca8a90d96ccab2deb5f1b94179fb215dce45eede70b6dd8b0bbd0474e3165f7",
+      "root_blocks": [
+        "locations"
+      ],
+      "root_scalar_keys": []
+    },
+    {
+      "path": "main_menu/setup/1337/09_roads.txt",
+      "bytes": 32940,
+      "sha256": "65f360f3e4c08f1f5b4a1978731cdc6dc33901d6758f6551fc21c9c2fd1f52d2",
+      "root_blocks": [
+        "road_network"
+      ],
+      "root_scalar_keys": []
+    },
+    {
+      "path": "main_menu/setup/1337/10_countries.txt",
+      "bytes": 1595244,
+      "sha256": "fb97a55dd256a69f58eb7314c3183a1539825c3d8a19a074a1df1c8a043348f4",
+      "root_blocks": [
+        "countries"
+      ],
+      "root_scalar_keys": [
+        "current_age"
+      ]
+    },
+    {
+      "path": "main_menu/setup/1337/11_art.txt",
+      "bytes": 23500,
+      "sha256": "653a4166c287298930bb78cef54a1e128d7b0c087957291b2ab978fd0920b972",
+      "root_blocks": [
+        "work_of_art_manager"
+      ],
+      "root_scalar_keys": []
+    },
+    {
+      "path": "main_menu/setup/1337/12_diplomacy.txt",
+      "bytes": 50384,
+      "sha256": "5b817a56fe72093b0c0a18f8d0e946b859b92ee6fb46347ae84940046ef68c20",
+      "root_blocks": [
+        "diplomacy_manager"
+      ],
+      "root_scalar_keys": []
+    },
+    {
+      "path": "main_menu/setup/1337/13_religion.txt",
+      "bytes": 5842,
+      "sha256": "ff8ea7111447c8029be10823c53bd48da7cf1fccd7598367c9c986069c3cdfbd",
+      "root_blocks": [
+        "building_manager",
+        "religion_manager"
+      ],
+      "root_scalar_keys": []
+    },
+    {
+      "path": "main_menu/setup/1337/14_development.txt",
+      "bytes": 6904,
+      "sha256": "3c2c1ff5d38279dda8a1bf77f3f15ea73fd712cd1fd6b4a63f34e28ee7f4a4f7",
+      "root_blocks": [
+        "development"
+      ],
+      "root_scalar_keys": []
+    },
+    {
+      "path": "main_menu/setup/1337/15_international_organizations.txt",
+      "bytes": 66684,
+      "sha256": "9398a1ec2095580419370969428264e5fdaeb7e114230aff9e66a444e1d01a3e",
+      "root_blocks": [
+        "international_organization_manager"
+      ],
+      "root_scalar_keys": []
+    },
+    {
+      "path": "main_menu/setup/1337/16_wars.txt",
+      "bytes": 14786,
+      "sha256": "43be6696391d7f83f0e03b4ca41d2f0c23ec9263b31d24ba9da6df6a9e888068",
+      "root_blocks": [
+        "war_manager"
+      ],
+      "root_scalar_keys": []
+    },
+    {
+      "path": "main_menu/setup/1337/18_opinions.txt",
+      "bytes": 6611,
+      "sha256": "ffa73fdde1ece3c4472efb0731baf2efc51007f9465f46b379c099a0c38c246c",
+      "root_blocks": [
+        "diplomacy_manager"
+      ],
+      "root_scalar_keys": []
+    },
+    {
+      "path": "main_menu/setup/1337/19_diseases.txt",
+      "bytes": 12824,
+      "sha256": "bf8d5b17971c3fdee4c6fbf56a5be5a89657e3cac70590b0bc7157082cf182f8",
+      "root_blocks": [
+        "disease_outbreak_manager"
+      ],
+      "root_scalar_keys": []
+    },
+    {
+      "path": "main_menu/setup/1337/20_rivals.txt",
+      "bytes": 2137,
+      "sha256": "777b28ee7bf9a2efd9f0522974cbb4e7b7544d165f0b4b8188b70f80079eacdf",
+      "root_blocks": [
+        "diplomacy_manager"
+      ],
+      "root_scalar_keys": []
+    },
+    {
+      "path": "main_menu/setup/1337/21_locations.txt",
+      "bytes": 409,
+      "sha256": "5fb0a05445aa6f655fd6cca98053096b314a53e0df5c66fdbb281572cc83833f",
+      "root_blocks": [
+        "locations"
+      ],
+      "root_scalar_keys": []
+    },
+    {
+      "path": "main_menu/setup/1337/22_situations.txt",
+      "bytes": 714,
+      "sha256": "ae94b21a8976bf2ef2dbd890c51f6a83d1b27d8cb1b1b290b309c47a8c2a90f3",
+      "root_blocks": [
+        "situation_manager"
+      ],
+      "root_scalar_keys": []
+    },
+    {
+      "path": "main_menu/setup/1337/23_colonies.txt",
+      "bytes": 1931,
+      "sha256": "648749fa05dc0df8347a550fe5f1596535d9ba4a55a35fb3702206c494dbf02f",
+      "root_blocks": [
+        "colony_manager"
+      ],
+      "root_scalar_keys": []
+    },
+    {
+      "path": "main_menu/setup/1337/24_town_rights.txt",
+      "bytes": 5511,
+      "sha256": "7da89b6b0a80071fad47f16cb045adff2a9015f572f6d9dedafb7d9e0edd7ed5",
+      "root_blocks": [
+        "townrights_manager"
+      ],
+      "root_scalar_keys": []
+    },
+    {
+      "path": "main_menu/setup/1337/25_area_preferences.txt",
+      "bytes": 21165,
+      "sha256": "9217f693b77cd32ccd894c21759c6757c61e2e06bd2148e98470bcc20a04b223",
+      "root_blocks": [
+        "countries"
+      ],
+      "root_scalar_keys": []
+    },
+    {
+      "path": "main_menu/setup/1337/26_ai_personalities.txt",
+      "bytes": 5040,
+      "sha256": "1f58036fb63014fae33b75d532bd7846791a3fe4ad6218718854eabfb15003a2",
+      "root_blocks": [
+        "countries"
+      ],
+      "root_scalar_keys": []
+    },
+    {
+      "path": "main_menu/setup/1337/27_armies.txt",
+      "bytes": 2632,
+      "sha256": "46dad0529523465bd3e1b8f62249e0f153110ea3ee0231f35019fb263fb9d69f",
+      "root_blocks": [
+        "unit_manager",
+        "unit_manager",
+        "locations",
+        "siege_manager"
+      ],
+      "root_scalar_keys": []
+    }
+  ],
+  "setup_total_bytes": 10704136,
+  "counts": {
+    "country_blocks": 2351,
+    "distinct_country_tags": 2351,
+    "explicit_country_type_fields": {
+      "army": 33,
+      "building": 150,
+      "location": 3,
+      "pop": 453
+    },
+    "country_blocks_without_explicit_type_field": 1712,
+    "market_declarations": 123,
+    "pop_location_blocks_including_empty": 28570,
+    "define_pop_blocks": 51530,
+    "character_db_blocks": 7770,
+    "dynasty_blocks": 1286,
+    "international_organization_manager_child_blocks": 53,
+    "war_manager_child_blocks": 15,
+    "location_template_blocks": 28573,
+    "country_definition_tags": 2354
+  },
+  "europe_regions_and_areas": {
+    "scandinavian_region": [
+      "svealand_area",
+      "gotaland_area",
+      "denmark_area",
+      "skaneland_area",
+      "norrland_area",
+      "finland_area",
+      "syd_norge_area",
+      "nord_norge_area",
+      "karelia_area",
+      "kola_area",
+      "scandinavian_sea_zones_area",
+      "inner_baltic_sea_area",
+      "south_baltic_sea_area",
+      "western_baltic_sea",
+      "russian_coastline"
+    ],
+    "north_atlantic_islands_region": [
+      "iceland_area",
+      "greenland_area",
+      "western_greenland_sea_zones_area",
+      "eastern_greenland_sea_area",
+      "northern_isles_area",
+      "northern_isles_sea_area",
+      "icelandic_coast_area"
+    ],
+    "north_german_region": [
+      "brabant_area",
+      "flanders_area",
+      "friesland_area",
+      "holland_area",
+      "wallonia_area",
+      "holstein_area",
+      "brandenburg_area",
+      "rhineland_area",
+      "hesse_area",
+      "westphalia_area",
+      "lower_saxony_area",
+      "upper_saxony_area",
+      "mecklenburg_area",
+      "pomerania_area"
+    ],
+    "south_german_region": [
+      "austria_area",
+      "upper_austria_area",
+      "salzburg_area",
+      "styria_area",
+      "carinthia_area",
+      "tirol_area",
+      "central_switzerland_area",
+      "eastern_switzerland_area",
+      "western_switzerland_area",
+      "upper_rhine_area",
+      "swabia_area",
+      "franconia_area",
+      "bavaria_area",
+      "bohemia_area",
+      "moravia_area",
+      "alsace_area"
+    ],
+    "great_britain_region": [
+      "home_counties_area",
+      "midlands_area",
+      "northumbria_area",
+      "east_anglia_area",
+      "west_country_area",
+      "scottish_highlands_area",
+      "hebrides_area",
+      "scottish_lowlands_area",
+      "wales_area",
+      "north_sea_area",
+      "english_channel_area",
+      "hebridean_sea_area"
+    ],
+    "ireland_region": [
+      "leinster_area",
+      "ulster_area",
+      "connaught_area",
+      "munster_area",
+      "irish_sea_area",
+      "celtic_sea_area"
+    ],
+    "france_region": [
+      "anjou_area",
+      "auvergne_area",
+      "brittany_area",
+      "burgundy_area",
+      "champagne_area",
+      "franche_comte_area",
+      "gascony_area",
+      "guyenne_area",
+      "ile_de_france_area",
+      "languedoc_area",
+      "limousin_province",
+      "lorraine_area",
+      "lyonnais_area",
+      "normandy_area",
+      "orleanais_area",
+      "picardy_area",
+      "poitou_area",
+      "provence_area",
+      "savoy_area",
+      "bay_of_biscay_area"
+    ],
+    "iberia_region": [
+      "galicia_area",
+      "leon_area",
+      "castile_area",
+      "extremadura_area",
+      "navarre_area",
+      "aragon_area",
+      "catalonia_area",
+      "valencia_area",
+      "balearics_area",
+      "north_portugal_area",
+      "south_portugal_area",
+      "toledo_area",
+      "andalusia_area",
+      "granada_area",
+      "murcia_area",
+      "iberian_west_coast_area",
+      "western_mediterranean_sea_area"
+    ],
+    "italy_region": [
+      "abruzzo_area",
+      "apulia_area",
+      "basilicata_area",
+      "campania_area",
+      "emilia_area",
+      "lazio_area",
+      "liguria_area",
+      "lombardy_area",
+      "marche_area",
+      "piemonte_area",
+      "sardinia_area",
+      "sicily_area",
+      "tuscany_area",
+      "veneto_area",
+      "tyrrhenian_sea"
+    ],
+    "carpathia_region": [
+      "moldavia_area",
+      "north_alfold_area",
+      "slovakia_area",
+      "south_alfold_area",
+      "transdanubia_area",
+      "transylvania_area",
+      "wallachia_area"
+    ],
+    "baltic_region": [
+      "baltic_area",
+      "central_poland_area",
+      "greater_poland_area",
+      "lesser_poland_area",
+      "lithuania_area",
+      "mazovia_area",
+      "prussia_area",
+      "samogitia_area",
+      "silesia_area",
+      "eastern_baltic_sea"
+    ],
+    "ruthenia_region": [
+      "black_ruthenia_area",
+      "left_bank_ukraine_area",
+      "podolia_area",
+      "polesia_area",
+      "red_ruthenia_area",
+      "severia_area",
+      "volhynia_area",
+      "right_bank_ukraine_area",
+      "white_ruthenia_area"
+    ],
+    "caucasus_region": [
+      "armenian_highlands_area",
+      "armenia_area",
+      "georgia_area",
+      "northern_caucasus_area",
+      "shirvan_area"
+    ],
+    "steppes_region": [
+      "crimea_area",
+      "matrega_area",
+      "yedisan_area",
+      "zaporizhzhia_area",
+      "kursk_area",
+      "sloboda_ukraine_area",
+      "pryazovia_area",
+      "azov_area",
+      "lower_don_area",
+      "astrakhan_area",
+      "majar_area",
+      "lower_yik_area"
+    ],
+    "russian_region": [
+      "moscow_area",
+      "oka_area",
+      "smolensk_area",
+      "ryazan_area",
+      "tambov_area",
+      "samara_area",
+      "nizhny_novgorod_area",
+      "suzdal_area",
+      "vladimir_area",
+      "tver_area",
+      "yaroslavl_area",
+      "beloozero_area",
+      "totma_area",
+      "east_novgorod_area",
+      "west_novgorod_area",
+      "pomorye_area",
+      "arkhangelsk_area"
+    ],
+    "ural_region": [
+      "kazan_area",
+      "vyatka_area",
+      "bolghar_area",
+      "bashkiria_area",
+      "karagay_area",
+      "perm_area",
+      "ust_sysola_area",
+      "vorkuta_area",
+      "ural_area"
+    ],
+    "balkan_region": [
+      "slovenia_area",
+      "slavonia_area",
+      "croatia_area",
+      "bosnia_area",
+      "serbia_area",
+      "bulgaria_area",
+      "macedonia_area",
+      "thrace_area",
+      "albania_area",
+      "northern_greece_area",
+      "morea_area",
+      "aegean_archipelago_area",
+      "adriatic_sea_area",
+      "ionian_sea_area",
+      "aegean_sea_area"
+    ]
+  },
+  "location_template_topographies": {
+    "atoll": 219,
+    "coastal_ocean": 1527,
+    "deep_ocean": 750,
+    "dune_wasteland": 82,
+    "flatland": 9877,
+    "flatland_wasteland": 201,
+    "high_lakes": 136,
+    "hills": 4648,
+    "hills_wasteland": 281,
+    "inland_sea": 1055,
+    "lakes": 750,
+    "mesa_wasteland": 7,
+    "mountain_wasteland": 909,
+    "mountains": 2420,
+    "narrows": 290,
+    "ocean": 1123,
+    "ocean_wasteland": 46,
+    "plateau": 2766,
+    "plateau_wasteland": 42,
+    "salt_pans": 35,
+    "wetlands": 1400,
+    "wetlands_wasteland": 9
+  },
+  "map_png": {
+    "width": 16384,
+    "height": 8192,
+    "bytes": 8737188
+  },
+  "country_roster_source_checks": [
+    {
+      "tag": "FRA",
+      "country_definition": "in_game/setup/countries/france.txt",
+      "has_formable_tag": true,
+      "capital_id_exists": true
+    },
+    {
+      "tag": "POR",
+      "country_definition": "in_game/setup/countries/iberia.txt",
+      "has_formable_tag": true,
+      "capital_id_exists": true
+    },
+    {
+      "tag": "SPA",
+      "country_definition": null,
+      "has_formable_tag": true,
+      "capital_id_exists": true
+    },
+    {
+      "tag": "GBR",
+      "country_definition": null,
+      "has_formable_tag": true,
+      "capital_id_exists": true
+    },
+    {
+      "tag": "IRE",
+      "country_definition": null,
+      "has_formable_tag": true,
+      "capital_id_exists": true
+    },
+    {
+      "tag": "NED",
+      "country_definition": null,
+      "has_formable_tag": true,
+      "capital_id_exists": true
+    },
+    {
+      "tag": "BEL",
+      "country_definition": null,
+      "has_formable_tag": true,
+      "capital_id_exists": true
+    },
+    {
+      "tag": "GER",
+      "country_definition": null,
+      "has_formable_tag": true,
+      "capital_id_exists": true
+    },
+    {
+      "tag": "SWI",
+      "country_definition": "in_game/setup/countries/south_germany.txt",
+      "has_formable_tag": true,
+      "capital_id_exists": true
+    },
+    {
+      "tag": "HAB",
+      "country_definition": "in_game/setup/countries/south_germany.txt",
+      "has_formable_tag": true,
+      "capital_id_exists": true
+    },
+    {
+      "tag": "ITA",
+      "country_definition": null,
+      "has_formable_tag": true,
+      "capital_id_exists": true
+    },
+    {
+      "tag": "DAN",
+      "country_definition": "in_game/setup/countries/_scandinavia.txt",
+      "has_formable_tag": true,
+      "capital_id_exists": true
+    },
+    {
+      "tag": "NOR",
+      "country_definition": "in_game/setup/countries/_scandinavia.txt",
+      "has_formable_tag": false,
+      "capital_id_exists": true
+    },
+    {
+      "tag": "SWE",
+      "country_definition": "in_game/setup/countries/_scandinavia.txt",
+      "has_formable_tag": true,
+      "capital_id_exists": true
+    },
+    {
+      "tag": "FIN",
+      "country_definition": "in_game/setup/countries/_scandinavia.txt",
+      "has_formable_tag": true,
+      "capital_id_exists": true
+    },
+    {
+      "tag": "POL",
+      "country_definition": "in_game/setup/countries/poland.txt",
+      "has_formable_tag": true,
+      "capital_id_exists": true
+    },
+    {
+      "tag": "BOH",
+      "country_definition": "in_game/setup/countries/south_germany.txt",
+      "has_formable_tag": true,
+      "capital_id_exists": true
+    },
+    {
+      "tag": "HUN",
+      "country_definition": "in_game/setup/countries/carpathia.txt",
+      "has_formable_tag": true,
+      "capital_id_exists": true
+    },
+    {
+      "tag": "LIT",
+      "country_definition": "in_game/setup/countries/baltics.txt",
+      "has_formable_tag": false,
+      "capital_id_exists": true
+    },
+    {
+      "tag": "LIV",
+      "country_definition": "in_game/setup/countries/baltics.txt",
+      "has_formable_tag": true,
+      "capital_id_exists": true
+    },
+    {
+      "tag": "RUS",
+      "country_definition": null,
+      "has_formable_tag": true,
+      "capital_id_exists": true
+    },
+    {
+      "tag": "RMN",
+      "country_definition": null,
+      "has_formable_tag": true,
+      "capital_id_exists": true
+    },
+    {
+      "tag": "SER",
+      "country_definition": "in_game/setup/countries/balkans.txt",
+      "has_formable_tag": true,
+      "capital_id_exists": true
+    },
+    {
+      "tag": "BUL",
+      "country_definition": "in_game/setup/countries/balkans.txt",
+      "has_formable_tag": true,
+      "capital_id_exists": true
+    },
+    {
+      "tag": "GRE",
+      "country_definition": null,
+      "has_formable_tag": true,
+      "capital_id_exists": true
+    }
+  ],
+  "market_ids_exist": {
+    "london": true,
+    "paris": true,
+    "lisbon": true,
+    "sevilla": true,
+    "lubeck": true,
+    "venice": true,
+    "stockholm": true,
+    "krakow": true,
+    "moscow": true,
+    "constantinople": true
+  },
+  "additional_source_files": [
+    {
+      "path": "in_game/map_data/location_templates.txt",
+      "bytes": 3754033,
+      "sha256": "f2f3d80a2bb65b41b578a51cb06cc47a0f8d83b682eec8c2cce69f1add9cd59c"
+    },
+    {
+      "path": "in_game/map_data/definitions.txt",
+      "bytes": 515565,
+      "sha256": "9a9df23e4415e9d450db7d015231708540d151285017bb5b8aca61cadf2ed265"
+    },
+    {
+      "path": "in_game/common/formable_countries/00_formable_countries.txt",
+      "bytes": 81189,
+      "sha256": "ff86176e3f681f6d244c735fcae88548f5868c602d35520261dd4ba1777d56bd"
+    },
+    {
+      "path": "main_menu/common/bookmarks/00_bookmarks.txt",
+      "bytes": 758,
+      "sha256": "ee4675bf907d7a134e9d56f4be1f978a25b9deffd52f089310d718a135e49a4e"
+    },
+    {
+      "path": "in_game/map_data/default.map",
+      "bytes": 181410,
+      "sha256": "fdc0812dfb90c90744f8d09650b0a2945fc3b3abc1fe957ad03aff61b53e4d86"
+    },
+    {
+      "path": "in_game/setup/countries/_default.txt",
+      "bytes": 199,
+      "sha256": "6fc4e5c3aaed23c5c49afb0160ab4f2c1e07abffe336c550d7994de23df2a6c6"
+    },
+    {
+      "path": "in_game/setup/countries/_scandinavia.txt",
+      "bytes": 2169,
+      "sha256": "b573103a89e13e5cca798304bc379d62046ac9efaac6b6d7b23415504861f691"
+    },
+    {
+      "path": "in_game/setup/countries/anatolia.txt",
+      "bytes": 6255,
+      "sha256": "a3fe15941e8c28ad631c31cb88b752dfbed44643fe9f7f44132cff3c43e0e2a6"
+    },
+    {
+      "path": "in_game/setup/countries/andes.txt",
+      "bytes": 10942,
+      "sha256": "563b63038b34f8971be319564d96d8b7e8d26ccec46e2b8f31e223bd98210719"
+    },
+    {
+      "path": "in_game/setup/countries/arabia.txt",
+      "bytes": 4192,
+      "sha256": "11887e885c45178ddae18b79e57734d21ae5f8c0168df7ca4cb62f62fea3d65e"
+    },
+    {
+      "path": "in_game/setup/countries/aridoamerica.txt",
+      "bytes": 6278,
+      "sha256": "d2db51eaa829b1fb7d1f3199a7fac197215a76f36ba4149eb361c1e19f763303"
+    },
+    {
+      "path": "in_game/setup/countries/balkans.txt",
+      "bytes": 4869,
+      "sha256": "2c87158a6a501d24fccd69cd68a72759241f9e1420127779d9cab3a73c9edb9d"
+    },
+    {
+      "path": "in_game/setup/countries/baltics.txt",
+      "bytes": 1955,
+      "sha256": "2a1278aab92192fd786a422276e9aa4d276cd6d415db6c1216d84e44ef733950"
+    },
+    {
+      "path": "in_game/setup/countries/bengal.txt",
+      "bytes": 3566,
+      "sha256": "14841c0cb09a6bf74655dfbf006964e7c890dec0bd17eedb1e2dc056f65192e2"
+    },
+    {
+      "path": "in_game/setup/countries/brasil.txt",
+      "bytes": 2236,
+      "sha256": "1f9db982a66f6ff9d0a74b203c2b06f389536356730e5bd5d1e90a792e12281d"
+    },
+    {
+      "path": "in_game/setup/countries/british_isles.txt",
+      "bytes": 9723,
+      "sha256": "974801f4fa10af5e441849041680799b83dc5045b3d74397e42f34cb1bb8505c"
+    },
+    {
+      "path": "in_game/setup/countries/canadian.txt",
+      "bytes": 3324,
+      "sha256": "647f20edbdeabf9385c53ed98db9bd03ba89d35ace0136eec77d59bf49b77fa4"
+    },
+    {
+      "path": "in_game/setup/countries/carpathia.txt",
+      "bytes": 1310,
+      "sha256": "d6ba48738e026606e91182763045a3bba0768dc78898b3a8614de651a0cd2403"
+    },
+    {
+      "path": "in_game/setup/countries/caucasus.txt",
+      "bytes": 3792,
+      "sha256": "8b628d455a82fb61a0873a5d9bba1ebc8d2547e07a5b212aa4e016f8e559eb35"
+    },
+    {
+      "path": "in_game/setup/countries/central_north_america.txt",
+      "bytes": 7369,
+      "sha256": "99d374ffc35d2112d5c5714816b246ea5dc2d77abd97cb6c8e88a0148dd47982"
+    },
+    {
+      "path": "in_game/setup/countries/centralamerica.txt",
+      "bytes": 1656,
+      "sha256": "539ce96b939682fce071a0e132e148bdffb267a33abd8430fa9839d78db16acf"
+    },
+    {
+      "path": "in_game/setup/countries/chaco.txt",
+      "bytes": 458,
+      "sha256": "d601144974dcbf041f0434bfcf7c0d85cfbb7bb3b85ddc0cd7edf745daa806c1"
+    },
+    {
+      "path": "in_game/setup/countries/colombia.txt",
+      "bytes": 4553,
+      "sha256": "cc2df5ca4ee0217ffd60a935ddc22ce214b1ca21f8c8d429f93daa01ce768d8a"
+    },
+    {
+      "path": "in_game/setup/countries/crescent.txt",
+      "bytes": 3351,
+      "sha256": "095d1df90839d3384ddad8615b97873f2f4cdc1ae4d6c1fdec60c404eca91145"
+    },
+    {
+      "path": "in_game/setup/countries/east_africa.txt",
+      "bytes": 11868,
+      "sha256": "b059a237c86d9533e517fb269e6b697329c90c647c953717d514d57a870c6781"
+    },
+    {
+      "path": "in_game/setup/countries/east_asia.txt",
+      "bytes": 67543,
+      "sha256": "9537a7d61ed1ad68c65c53bfabda8029f1ac8c3a805e3398402ec8966067459a"
+    },
+    {
+      "path": "in_game/setup/countries/eastcoast.txt",
+      "bytes": 15726,
+      "sha256": "079a29e5af3ecd84502477e9dc73c885eba5e3a037a7fd5ee1dc70e72b49e83f"
+    },
+    {
+      "path": "in_game/setup/countries/egypt.txt",
+      "bytes": 854,
+      "sha256": "b2915c3677a91af47c22609244463a05038987a36430548b6db35a6e7dae5fb1"
+    },
+    {
+      "path": "in_game/setup/countries/france.txt",
+      "bytes": 8793,
+      "sha256": "b72b1bec4797e12f412d539001c20125b4d941aa36f97631153f02868b3372d1"
+    },
+    {
+      "path": "in_game/setup/countries/horn_of_africa.txt",
+      "bytes": 5461,
+      "sha256": "1eda24af088a4cbd111cc78990eebfc6fd277ea9c47b3506ae63fc7c2ed0f8bd"
+    },
+    {
+      "path": "in_game/setup/countries/iberia.txt",
+      "bytes": 3360,
+      "sha256": "25eac388e08bdb8ab6545669542e0d46bb10d748b980f5fad23800ec81ce2955"
+    },
+    {
+      "path": "in_game/setup/countries/india.txt",
+      "bytes": 12720,
+      "sha256": "fc0eec5be33006b02611be1748500db15ab7800f20eb0bc7f1d06f646453d7a5"
+    },
+    {
+      "path": "in_game/setup/countries/indonesia.txt",
+      "bytes": 11908,
+      "sha256": "18992298b61c4735ed847bf01303a2f7286a13317e7390a122ef70ae4c9ad53f"
+    },
+    {
+      "path": "in_game/setup/countries/italy.txt",
+      "bytes": 9438,
+      "sha256": "305d8d2cce03e44ac3c5281e0a15823423d8f47c2510cfebb59396b40af6a93d"
+    },
+    {
+      "path": "in_game/setup/countries/kongo.txt",
+      "bytes": 1841,
+      "sha256": "ea1735bfbf35bf6baf299e0f65d11da0eb87969cb4367b20685b99348b3e33d6"
+    },
+    {
+      "path": "in_game/setup/countries/lowlands.txt",
+      "bytes": 2685,
+      "sha256": "49c8762b6393f1d31a88d2514ba51aa5dde1b9e06a77d78d0c6af426ba2b6422"
+    },
+    {
+      "path": "in_game/setup/countries/maghreb.txt",
+      "bytes": 3124,
+      "sha256": "a2f4e29c585d09fe59c5cc49a578c32b8a09e65c779a1d3613cccac883b1ec48"
+    },
+    {
+      "path": "in_game/setup/countries/mesoamerica.txt",
+      "bytes": 28556,
+      "sha256": "6b4a46ae7f9192ee06ab2f0508db73aadc9c7a662dbb8335499bf7e717455746"
+    },
+    {
+      "path": "in_game/setup/countries/north_germany.txt",
+      "bytes": 15206,
+      "sha256": "70376fd618ffa5bb0c381622ce85e8662e5b5892ec8ecabedb91ee65fd1cdb20"
+    },
+    {
+      "path": "in_game/setup/countries/persia.txt",
+      "bytes": 7509,
+      "sha256": "ae67319f519110fc97cf45d3cb28304613d4bfa23ce15fd000597548b2eeedf6"
+    },
+    {
+      "path": "in_game/setup/countries/poland.txt",
+      "bytes": 4810,
+      "sha256": "6937e34e2d1fc89394116d54693a2bd6315b99bb392366aeb53cb2d8c187691d"
+    },
+    {
+      "path": "in_game/setup/countries/polynesia.txt",
+      "bytes": 3747,
+      "sha256": "986ef7c69a1735763a1f3c372899f150ddcd7dfc91a25d24dfdd479721a98813"
+    },
+    {
+      "path": "in_game/setup/countries/russia.txt",
+      "bytes": 4506,
+      "sha256": "969728b46016a6d3eef4dc05ff9ac0d55e553ec5de489aff0bb74ac4d7c79811"
+    },
+    {
+      "path": "in_game/setup/countries/siberia.txt",
+      "bytes": 2416,
+      "sha256": "afb13c8e8ba7eb15137372f041976955c412cc507f0c97cb603c8ea0f18e1527"
+    },
+    {
+      "path": "in_game/setup/countries/south_africa.txt",
+      "bytes": 809,
+      "sha256": "abd3c987dce340c0c5748b0396d6ede594884e84d0e263a17877dec17a775c5a"
+    },
+    {
+      "path": "in_game/setup/countries/south_east_asia.txt",
+      "bytes": 8039,
+      "sha256": "001f82b597b86d1bcef054941950c7aa1f427a82b1f37a844a31c98dffd0dae2"
+    },
+    {
+      "path": "in_game/setup/countries/south_germany.txt",
+      "bytes": 12711,
+      "sha256": "dae95f4bfbd61a0d3d4b53d613c69821dda53a2236970a1e14633248f02fea92"
+    },
+    {
+      "path": "in_game/setup/countries/steppes.txt",
+      "bytes": 1041,
+      "sha256": "8fad3b040f8972f72163843e3bcfd450e53662f5dacac9dba34f7f1d7d7cdd79"
+    },
+    {
+      "path": "in_game/setup/countries/west_africa.txt",
+      "bytes": 7871,
+      "sha256": "7d0741a7410a4916471fbc1a86ce97439fd4676012d559472c15ea73dcfbc4c8"
+    },
+    {
+      "path": "in_game/setup/countries/westcoast.txt",
+      "bytes": 3076,
+      "sha256": "3352424156b42bbfa717eea4477761a2647b7f17a3c15a8a14a9da11609ca1d4"
+    }
+  ],
+  "dlc_setup_candidates": [
+    {
+      "path": "dlc/D009_across_the_pillars/main_menu/setup/1337/25_d009_town_rights.txt",
+      "bytes": 526,
+      "sha256": "a3d71be24d6bd1ae1ae397c0161ab84bcc97e8ea2c9be66970a64ca00d2955fb"
+    },
+    {
+      "path": "dlc/D009_across_the_pillars/main_menu/setup/1337/27_d009_cities_and_buildings.txt",
+      "bytes": 752,
+      "sha256": "efe93b536120e72d53c84a614a69b71a0bbac75257aa6cb4db84a295d115edb7"
+    }
+  ],
+  "limitations": [
+    "Source declarations are not counts of alive AI countries or runtime objects.",
+    "Includes, templates, DLC activation and VFS precedence are not resolved.",
+    "No startup time, simulation time, memory or in-game compatibility was measured.",
+    "Formable tags do not supply complete start-country definitions.",
+    "No game installation file was modified."
+  ]
+}
